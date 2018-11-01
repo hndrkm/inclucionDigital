@@ -15,13 +15,10 @@ Empaquetar programas en flatpak
 	`cd /var/cache/apt/archives/`  	
 Para empaquetar las aplicaciones descargadas de flatpak, se debe primero empaqueatar los tiempos de ejecucion(runtime) se debe tomar en cunata las versiones de los programas  
 para ver las aplicaciones instaladas desde flatpak es 
-		`flatpak list` 
+	`flatpak list` 
 para correr una aplicacion de flatpak es 
-		`flatpak run (nombre del programa listado en las aplicaciones instaladas)`
+	`flatpak run (nombre del programa listado en las aplicaciones instaladas)`
 para empaquetar las aplicaciones de flatpak 
 		flatpak build-bundle [OPTION...] LOCATION FILENAME NAME [version]  
 ejemplo 
-		flatpak build-bundle /var/lib/flatpak/ 
--
--
--
+	`flatpak build-bundle /var/lib/flatpak/`
