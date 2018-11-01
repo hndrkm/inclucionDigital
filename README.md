@@ -5,12 +5,12 @@ Empaquetar programas en flatpak
 	apt-get install flatpak  
 -Preparar instalacion offline de flatpak  
   Extraer los archivos  
-	bubblewrap_0.1.7-1_amd64.deb  
-	flatpak_0.8.9-0+deb9u1_amd64.deb  
-	gnome-software-plugin-flatpak_3.22.5-1_amd64.deb  
-	libostree-1-1_2016.15-5_amd64.deb  
-	xdg-desktop-portal_0.5-1_amd64.deb  
-	xdg-desktop-portal-gtk_0.5-1_amd64.deb  
+	*bubblewrap_0.1.7-1_amd64.deb  
+	*flatpak_0.8.9-0+deb9u1_amd64.deb  
+	*gnome-software-plugin-flatpak_3.22.5-1_amd64.deb  
+	*libostree-1-1_2016.15-5_amd64.deb  
+	*xdg-desktop-portal_0.5-1_amd64.deb  
+	*xdg-desktop-portal-gtk_0.5-1_amd64.deb  
   Del directorio(el cache de apt dura como defecto 30 dias)  
 	`cd /var/cache/apt/archives/`  
 	
