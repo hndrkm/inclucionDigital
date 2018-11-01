@@ -12,8 +12,7 @@ Empaquetar programas en flatpak
 	*xdg-desktop-portal_0.5-1_amd64.deb  
 	*xdg-desktop-portal-gtk_0.5-1_amd64.deb  
   Del directorio(el cache de apt dura como defecto 30 dias)  
-	`cd /var/cache/apt/archives/`  
-	
+	`cd /var/cache/apt/archives/`  	
 Para empaquetar las aplicaciones descargadas de flatpak, se debe primero empaqueatar los tiempos de ejecucion(runtime) se debe tomar en cunata las versiones de los programas  
 para ver las aplicaciones instaladas desde flatpak es 
 		`flatpak list` 
