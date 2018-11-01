@@ -14,17 +14,14 @@ Empaquetar programas en flatpak
   Del directorio(el cache de apt dura como defecto 30 dias)  
 	`cd /var/cache/apt/archives/`  
 	
-	para empaquetar las aplicaciones descargadas de flatpak 
-	se debe primero empaqueatar los tiempos de ejecucion(runtime)
-	se debe tomar en cunata las versiones de los programas
-	
-	para ver las aplicaciones instaladas desde flatpak es 
+Para empaquetar las aplicaciones descargadas de flatpak, se debe primero empaqueatar los tiempos de ejecucion(runtime) se debe tomar en cunata las versiones de los programas  
+para ver las aplicaciones instaladas desde flatpak es 
 		`flatpak list` 
-	para correr una aplicacion de flatpak es 
+para correr una aplicacion de flatpak es 
 		`flatpak run (nombre del programa listado en las aplicaciones instaladas)`
-	para empaquetar las aplicaciones de flatpak 
+para empaquetar las aplicaciones de flatpak 
 		flatpak build-bundle [OPTION...] LOCATION FILENAME NAME [version]  
-	ejemplo 
+ejemplo 
 		flatpak build-bundle /var/lib/flatpak/ 
 -
 -
