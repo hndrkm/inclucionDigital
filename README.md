@@ -1,9 +1,9 @@
 # inclucionDigital
 ----------------------------
 Empaquetar programas en flatpak  
-##-Instalar  
+## -Instalar  
 	apt-get install flatpak  
-##-Preparar instalacion offline de flatpak  
+## -Preparar instalacion offline de flatpak  
   Extraer los archivos  
 	*bubblewrap_0.1.7-1_amd64.deb  
 	*flatpak_0.8.9-0+deb9u1_amd64.deb  
@@ -14,13 +14,13 @@ Empaquetar programas en flatpak
   Del directorio(el cache de apt dura como defecto 30 dias)  
 	`cd /var/cache/apt/archives/`  
 Para empaquetar las aplicaciones descargadas de flatpak, se debe primero empaqueatar los tiempos de ejecucion(runtime) se debe tomar en cuenta las versiones de los programas  
-##Para instalar un programa en flatpak
+## Para instalar un programa en flatpak
 	`flatpak install /directorio de descarga de flathub o url de donde se esta bajando el archivo`
 Para ver las aplicaciones instaladas desde flatpak es 
 		`flatpak list`   
 Para correr una aplicacion de flatpak es  
 		`flatpak run (nombre del programa listado en las aplicaciones instaladas)`
-##Para empaquetar las aplicaciones de flatpak  
+## Para empaquetar las aplicaciones de flatpak  
 		`flatpak build-bundle [OPTION...] LOCATION FILENAME NAME [version]`  
 Ejemplo  
 		`flatpak build-bundle /var/lib/flatpak/ gimp.flatpak org.gimp.GIMP`
