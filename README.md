@@ -27,6 +27,6 @@ Ejemplo
 Ejemplo de runtime  
 `flatpak build-bundle --runtime /var/lib/flatpak/ runtimeGimp.flatpak  org.gnome.Platform`
 (se debe estar en el directorio de /var/lib/flatpak)  
-para ver la documentacion de [flatpak][http://docs.flatpak.org/en/latest/single-file-bundles.html]  
+para ver la documentacion de [flatpak](http://docs.flatpak.org/en/latest/single-file-bundles.html)  
 
 	
