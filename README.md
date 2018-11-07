@@ -11,7 +11,7 @@ Extraer los archivos
 +  libostree-1-1_2016.15-5_amd64.deb
 +  xdg-desktop-portal_0.5-1_amd64.deb
 +  xdg-desktop-portal-gtk_0.5-1_amd64.deb  
-Del directorio(el cache de apt dura como defecto 30 dias)  
+##### Del directorio(el cache de apt dura como defecto 30 dias)  
 `cd /var/cache/apt/archives/`  
 Para empaquetar las aplicaciones descargadas de flatpak, se debe primero empaqueatar los tiempos de ejecucion(runtime) se debe tomar en cuenta las versiones de los programas  
 ## Para instalar un programa en flatpak
