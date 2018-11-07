@@ -50,6 +50,7 @@ Se debe tener los archivos y directorios nesesarios
 		* runtimeaudacity.flatpak
 	* installPrograms.sh
 	* OpenShot-v2.4.3-x86_64.AppImage  
+---------------------------------------
 Para realizar la instalacion nos ubicamos en el directorio donde se encuentra contenido 
 `cd /*ruta de contenido*/contenido`
 luego se realiza la instalacion 
