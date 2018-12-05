@@ -1,5 +1,7 @@
 # inclucionDigital
-----------------------------
+----------------------------  
+Para consulta acerca de los equipos y algunos problemas consulte la carpeta manuales. 
+
 Empaquetar programas en flatpak  
 ## -Instalar  
 `apt-get install flatpak`  
@@ -56,7 +58,7 @@ Para realizar la instalacion nos ubicamos en el directorio donde se encuentra co
 luego se realiza la instalacion   
 `bash installPrograms.sh /*ruta de contenido*/contenido`  
 Despues hacer correr OpenShot con `openshot` 
-----------------------------------------
-# Red mesh entre laptops  
+----------------------------------------  
+### Red mesh entre laptops  
 La red mesh entre equipos se consiguio mediante el software [qaul.net] (https://github.com/qaul/qaul.net)  
 para su instalacion solo se debe seguir los pasos mostrados en el enlace.
