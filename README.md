@@ -52,12 +52,12 @@ Se debe tener los archivos y directorios nesesarios
 		* runtimeaudacity.flatpak
 	* installPrograms.sh
 	* OpenShot-v2.4.3-x86_64.AppImage  
----------------------------------------
-Para realizar la instalacion nos ubicamos en el directorio donde se encuentra contenido  
+---------------------------------------  
+Para realizar la instalacion nos ubicamos en el directorio donde se encuentra contenido   
 `cd /*ruta de contenido*/contenido`  
 luego se realiza la instalacion   
 `bash installPrograms.sh /*ruta de contenido*/contenido`  
-Despues hacer correr OpenShot con `openshot` 
+Despues hacer correr OpenShot con `openshot`  
 ----------------------------------------  
 ### Red mesh entre laptops  
 La red mesh entre equipos se consiguio mediante el software [qaul.net] (https://github.com/qaul/qaul.net)  
